@@ -2,6 +2,7 @@ package ru.dao;
 
 import ru.entity.Person;
 import ru.entity.Persons;
+import ru.entity.Phone;
 import ru.service.PrimaryKey;
 
 import javax.xml.bind.JAXBContext;
@@ -124,8 +125,10 @@ public class PersonDAOImpl implements PersonDAO {
         ArrayList<Person> result = new ArrayList<>();
 
         for (Person person : persons.getPersons()) {
-            if(person.getPhonesString().contains(number)){
-                result.add(person);
+            for (Phone phone: person.getPhones()){
+                if(phone.getPhoneNumber().contains(number)){
+                    result.add(person);
+                }
             }
         }
         return result;
