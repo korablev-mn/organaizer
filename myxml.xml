@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons id="3">
+    <person>
+        <id>1</id>
+        <firstName>bob</firstName>
+        <secondName>niko</secondName>
+        <lastName>Puppa</lastName>
+        <profession>Santehnik</profession>
+        <nameOfOrganization>ooo""</nameOfOrganization>
+        <email>1@mail.ru</email>
+        <phones>
+            <phone>
+                <phoneNumber>89114443322</phoneNumber>
+            </phone>
+            <phone>
+                <phoneNumber>89213456790</phoneNumber>
+            </phone>
+        </phones>
+    </person>
+    <person>
+        <id>2</id>
+        <firstName>mak</firstName>
+        <secondName></secondName>
+        <lastName>rurik</lastName>
+        <profession>Manager</profession>
+        <nameOfOrganization>ooo"Tropa"</nameOfOrganization>
+        <email>2@mail.ru</email>
+        <phones>
+            <phone>
+                <phoneNumber>89234567890</phoneNumber>
+            </phone>
+            <phone>
+                <phoneNumber>89213334532</phoneNumber>
+            </phone>
+        </phones>
+    </person>
+</persons>
